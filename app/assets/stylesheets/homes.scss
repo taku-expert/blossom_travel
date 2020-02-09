@@ -1,0 +1,89 @@
+
+
+/* パソコン幅 */
+.wordpress {
+  height: 32px;
+  width: 100%;
+  background-color: pink;
+  display: block;
+}
+.header {
+  height: 650px;
+}
+
+.header-top {
+  height: 131px;
+  padding: 30px 25px;
+  border-bottom: solid 1px white;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+.search-btn {
+  line-height: 71px;
+  color: white;
+}
+.search-btn i {
+  font-size: 15px;
+}
+.header-left {
+  text-align: center;
+}
+.header-left a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+.header-left p {
+  font-size: 14px;
+  color: white;
+  margin-top: 15px;
+}
+.header-right i {
+  display: none;
+}
+
+.header-bottom {
+  height: 519px;
+  background-color: gray;
+  text-align: center;
+  padding: 100px;
+}
+.header-bottom h1 {
+  color: white;
+  font-size: 90px;
+  font-family: 'klee',sans-serif;
+}
+.header-bottom button {
+  margin-top: 50px;
+  height: 50px;
+  width: 200px;
+}
+
+.contents {
+  height: 1150px;
+  padding: 90px;
+  text-align: center;
+  background-color: pink;
+}
+.contents p {
+  font-size: 35px;
+  font-family: 'klee',sans-serif;
+  margin-bottom: 40px;
+}
+
+/* タブレット */
+@media screen and (max-width: 780px) {
+  .header-right i {
+    display: block;
+    line-height: 72px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+/* スマホ幅 */
+@media screen and (max-width: 480px) {
+  
+}
